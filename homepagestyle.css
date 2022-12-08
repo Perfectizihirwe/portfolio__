@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #0f192e;
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  color: #fff;
+}
+
+h2 {
+  color: #fff;
+}
+
+h1 {
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.navlinks {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 30px;
+}
+
+.hiremeButton {
+  background-color: #72e2ae;
+  border: none;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.introText {
+  text-align: center;
+}
+
+.profile {
+  border-radius: 50%;
+  border-color: #72e2ae;
+  border-width: 5px;
+  border-style: solid;
+}
+
+.header {
+  margin-bottom: 5%;
+}
+
+.logo {
+  font-size: 35px;
+  color: #72e2ae;
+}
